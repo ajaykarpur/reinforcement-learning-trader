@@ -2,7 +2,7 @@
 Trading altcoins using deep reinforcement learning.
 
 ## Strategy
-Start with a small-cap, low-volume altcoin market. First, let it learn to “buy low, sell high” by training it with paper trading. Next, let it start trading with real money. Once the agent has learned to successfully make money when trading with real money, move it up to the next market (by market cap or volume).
+Start with a small-cap, low-volume altcoin market. First, train it with paper trading. Next, let it start trading with real money. Once the agent has learned to successfully make money when trading with real money, move it up to the next market (by market cap or volume).
 
 ## Implementation Plan
 - [ ] Uses ccxt library for trades.
